@@ -1,86 +1,232 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>Digital PDF Store</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Digital PDF Store | Anxiety Relief Planner</title>
+
 <style>
-body{
-font-family:Arial;
+
+*{
 margin:0;
-text-align:center;
-background:#f4f4f4;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#fafafa;
+color:#333;
 }
 
 header{
 background:#111;
 color:white;
-padding:30px;
+padding:25px;
+text-align:center;
+}
+
+header h1{
+font-size:32px;
 }
 
 .hero{
-padding:80px 20px;
-background:#6a11cb;
+background:linear-gradient(135deg,#6a11cb,#2575fc);
 color:white;
+padding:100px 20px;
+text-align:center;
 }
 
-button{
-padding:15px 30px;
-font-size:18px;
+.hero h2{
+font-size:45px;
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:20px;
+}
+
+.button{
+display:inline-block;
+margin-top:30px;
+padding:16px 40px;
 background:#ffcc00;
-border:none;
-border-radius:10px;
-cursor:pointer;
+color:black;
+font-weight:bold;
+text-decoration:none;
+border-radius:30px;
+font-size:18px;
+transition:0.3s;
+}
+
+.button:hover{
+background:#ffa500;
 }
 
 .section{
-padding:60px 20px;
+padding:80px 20px;
+max-width:1100px;
+margin:auto;
+text-align:center;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:40px;
 }
 
 .card{
 background:white;
-padding:20px;
-margin:20px auto;
-max-width:400px;
-border-radius:10px;
-box-shadow:0 5px 10px rgba(0,0,0,0.1);
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
 }
+
+.testimonials{
+background:#f0f0f0;
+padding:80px 20px;
+text-align:center;
+}
+
+.testimonial{
+max-width:600px;
+margin:20px auto;
+font-style:italic;
+}
+
+.cta{
+background:#111;
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+.footer{
+background:black;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.instagram{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#E1306C;
+color:white;
+padding:14px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
 </style>
+
 </head>
 
 <body>
 
 <header>
+
 <h1>Digital PDF Store</h1>
-<p>Planners digitales para tu bienestar</p>
+<p>Herramientas digitales para tu bienestar</p>
+
 </header>
 
-<div class="hero">
+<section class="hero">
+
 <h2>Anxiety Relief Planner</h2>
-<p>Organiza tu mente y reduce tu ansiedad.</p>
 
-<a href="https://hotmart.com/es/marketplace/productos/anxiety-relief-planner/L104512083H?sck=HOTMART_PRODUCT_PAGE">
-<button>Comprar ahora</button>
+<p>
+Organiza tu mente, reduce el estrés y mejora tu bienestar
+con este planner digital diseñado para controlar la ansiedad.
+</p>
+
+<a class="button"
+href="https://hotmart.com/es/marketplace/productos/anxiety-relief-planner/L104512083H?sck=HOTMART_PRODUCT_PAGE"
+target="_blank">
+
+Comprar ahora
+
 </a>
-</div>
 
-<div class="section">
+</section>
 
-<div class="card">
-<h3>Seguimiento emocional</h3>
-<p>Registra tus emociones diariamente.</p>
-</div>
+<section class="section">
 
-<div class="card">
-<h3>Ejercicios anti ansiedad</h3>
-<p>Técnicas para reducir el estrés.</p>
-</div>
+<h2>Beneficios del Planner</h2>
+
+<div class="cards">
 
 <div class="card">
-<h3>Organización personal</h3>
-<p>Planifica tu día con claridad.</p>
+<h3>Control emocional</h3>
+<p>Aprende a identificar y gestionar tus emociones diariamente.</p>
+</div>
+
+<div class="card">
+<h3>Reducción de ansiedad</h3>
+<p>Ejercicios prácticos para calmar tu mente.</p>
+</div>
+
+<div class="card">
+<h3>Organización mental</h3>
+<p>Planifica tu vida y aumenta tu productividad.</p>
 </div>
 
 </div>
+
+</section>
+
+<section class="testimonials">
+
+<h2>Personas que ya lo usan</h2>
+
+<div class="testimonial">
+"Este planner me ayudó a entender mis emociones y reducir mi ansiedad."
+</div>
+
+<div class="testimonial">
+"Ahora organizo mejor mis días y me siento mucho más tranquila."
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>Empieza tu transformación hoy</h2>
+
+<p>Descarga el planner y comienza a mejorar tu bienestar.</p>
+
+<a class="button"
+href="https://hotmart.com/es/marketplace/productos/anxiety-relief-planner/L104512083H?sck=HOTMART_PRODUCT_PAGE"
+target="_blank">
+
+Descargar ahora
+
+</a>
+
+</section>
+
+<footer class="footer">
+
+<p>© 2026 Digital PDF Store</p>
+<p>Planners digitales para mejorar tu vida</p>
+
+</footer>
+
+<a class="instagram"
+href="https://www.instagram.com/digitalpdfstore"
+target="_blank">
+
+Instagram
+
+</a>
 
 </body>
 </html>
